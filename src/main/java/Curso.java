@@ -67,7 +67,7 @@ public class Curso {
     public String toString() {
         // Construye una cadena con el detalle del curso y la lista de alumnos
         StringBuilder sb = new StringBuilder();
-        sb.append("\n==========================================\n");
+        sb.append("\n==========================================\n"); // Decorativo
         sb.append("Detalles del Curso:\n");
         sb.append("  Nombre: ").append(nombre).append('\n');
         sb.append("  Código: ").append(codigo).append('\n');
